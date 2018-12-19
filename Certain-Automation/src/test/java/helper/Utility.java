@@ -23,6 +23,10 @@ public class Utility {
 	{
 		System.out.println("Github track");
 	}
+	public void dummyMethodByVasu1()
+	{
+		System.out.println("Github track1");
+	}
 	
 	
 	public static String getCurrentDate_Time()
