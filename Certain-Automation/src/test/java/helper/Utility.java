@@ -19,6 +19,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Utility {
 	
+	public void dummyMethodByVasu()
+	{
+		System.out.println("Github track");
+	}
+	
 	
 	public static String getCurrentDate_Time()
 	{
