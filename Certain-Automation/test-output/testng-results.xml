@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16200" started-at="2018-12-18T23:06:06Z" finished-at="2018-12-18T23:06:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16200" started-at="2018-12-18T23:06:06Z" finished-at="2018-12-18T23:06:23Z">
+      <class name="testcases.VerifyLoginpagewithCredentials">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:testcases.VerifyLoginpagewithCredentials@d8355a8]" name="setUpReport" is-config="true" duration-ms="199" started-at="2018-12-18T15:06:06Z" finished-at="2018-12-18T15:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method status="PASS" signature="setupApplication()[pri:0, instance:testcases.VerifyLoginpagewithCredentials@d8355a8]" name="setupApplication" is-config="true" duration-ms="6677" started-at="2018-12-18T15:06:06Z" finished-at="2018-12-18T15:06:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:testcases.VerifyLoginpagewithCredentials@d8355a8]" name="validLogin" duration-ms="6293" started-at="2018-12-18T15:06:13Z" finished-at="2018-12-18T15:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:testcases.VerifyLoginpagewithCredentials@d8355a8]" name="endTest" is-config="true" duration-ms="303" started-at="2018-12-18T15:06:19Z" finished-at="2018-12-18T15:06:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=VerifyLoginpagewithCredentials.validLogin()[pri:0, instance:testcases.VerifyLoginpagewithCredentials@d8355a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:testcases.VerifyLoginpagewithCredentials@d8355a8]" name="logOut" duration-ms="994" started-at="2018-12-18T15:06:20Z" depends-on-methods="testcases.VerifyLoginpagewithCredentials.validLogin" finished-at="2018-12-18T15:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="endTest(org.testng.ITestResult)[pri:0, instance:testcases.VerifyLoginpagewithCredentials@d8355a8]" name="endTest" is-config="true" duration-ms="1190" started-at="2018-12-18T15:06:21Z" finished-at="2018-12-18T15:06:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOut status=SUCCESS method=VerifyLoginpagewithCredentials.logOut()[pri:0, instance:testcases.VerifyLoginpagewithCredentials@d8355a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="tearDownApplication()[pri:0, instance:testcases.VerifyLoginpagewithCredentials@d8355a8]" name="tearDownApplication" is-config="true" duration-ms="719" started-at="2018-12-18T15:06:22Z" finished-at="2018-12-18T15:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownApplication -->
+        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:testcases.VerifyLoginpagewithCredentials@d8355a8]" name="tearDownReport" is-config="true" duration-ms="333" started-at="2018-12-18T15:06:23Z" finished-at="2018-12-18T15:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- testcases.VerifyLoginpagewithCredentials -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
