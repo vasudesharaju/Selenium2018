@@ -58,6 +58,9 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>validlogin.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+					<BrowserDetails>${Browser}</BrowserDetails>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 			<plugin>
