@@ -7,6 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -51,12 +52,12 @@ public class BaseClass {
 		}
 		report.endTest(logger);
 	}
-	
+	@Parameters("Browser")
 	@BeforeClass
-	public void setupApplication()
+	public void setupApplication(String myBrowser)
 	{
 		ConfigDataProvider config = new ConfigDataProvider();
-		myBrowser=config.geBrowser();
+		//myBrowser=config.geBrowser();
 		myStagingURL=config.getStagingURL();
 		driver=BrowserFactory.startApplication(myBrowser,myStagingURL);
 		
